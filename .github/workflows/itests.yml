@@ -7,7 +7,9 @@ on:
       - release-*
     tags:
       - v*
-    
+
+  workflow_dispatch:
+
   pull_request:
     branches: 
     - master
